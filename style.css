@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+}
+
+/*styling the header */
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 300px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    font-size: 18px;
+    color: #e7e5eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.container {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 300px 150px 300px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    max-width: 400px;
+    flex: 1 0 auto;
+    margin: 0;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e7e5eb;
+    max-width: 400px;
+    flex: 1 0 auto;
+}
+
+.image-placeholder {
+    color: #e7e5eb;
+    text-align: center;
+    font-size: 18px;
+    background-color: grey;
+    padding: 100px 0px;
+    margin-left: 40px;
+    max-width: 450px;
+    flex: 1 0 auto;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e7e5eb;
+    padding: 12px 36px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+/* styling the info part*/
+img {
+    width: 150px;
+    height: 150px;
+    border: #3882f6 solid 3px;
+    border-radius: 16px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info {
+    margin: auto;
+    display: flex;
+    max-width: 150px;
+    text-align: center;
+    gap: 36px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.info p{
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+/*styling the quote section*/
+.quote-section {
+    background-color: #e5e7eb;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 150px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    margin: 0;
+}
+
+.sayer {
+    margin: 0;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+/*styling the blue thingy*/
+.action {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+    margin: 70px 200px;
+    border-radius: 8px;
+    padding: 30px;
+    align-items: center;
+}
+
+.action-header {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.action-secondary {
+    margin-top: 0;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up {
+    border: #f9faf8 solid 2px;
+    padding: 12px 36px;
+}
+
+/*styling the footer*/
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #f9faf8;
+}
